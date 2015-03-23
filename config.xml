@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+	<ThumbIcon itemtype="string">icon/106x87.png</ThumbIcon>
+	<BigThumbIcon itemtype="string">icon/115x95.png</BigThumbIcon>
+	<ListIcon itemtype="string">icon/85x70.png</ListIcon>
+	<BigListIcon itemtype="string">icon/95x78.png</BigListIcon>
+	<ThumbIconHD itemtype="string">icon/158x130.png</ThumbIconHD>
+	<BigThumbIconHD itemtype="string">icon/173x143.png</BigThumbIconHD>
+	<ListIconHD itemtype="string">icon/128x105.png</ListIconHD>
+	<BigListIconHD itemtype="string">icon/143x118.png</BigListIconHD>
+	<Icon1080 itemtype="string">icon/128x105.png</Icon1080>
+	
+	<category>Videos</category>
+	<autoUpdate>y</autoUpdate>
+
+	<cpname></cpname>
+	<cpauthjs/>
+	<login>n</login>
+
+	<ver>1.005</ver>
+	<mgrver>2.000</mgrver>
+	
+	<fullwidget>y</fullwidget>
+	<srcctl>y</srcctl>
+	<ticker>n</ticker>
+	<childlock>n</childlock>
+	<audiomute>y</audiomute>
+	<videomute>y</videomute>
+	<dcont>y</dcont>
+	<movie>y</movie>
+	
+	<width>960</width>
+	<height>540</height>
+
+	<widgetname>ТК Надія</widgetname>
+	<description>Телеканал «Надія» — це телебачення про найцікавіше для тих, хто любить проводити свій час з користю.</description>
+
+	<author>
+		<name>Hope Channel Ukraine</name>
+		<email>contact@hope.ua</email>
+		<link>http://www.hope.ua/</link>
+		<organization>Hope Channel Ukraine</organization>
+	</author>
+</widget>

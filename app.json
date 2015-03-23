@@ -1,0 +1,8 @@
+{
+	"scenes" : [
+		"VideoPlayerFull"
+	],
+	"files" : [],
+	"theme" : "base",
+	"modules": ["ime"]
+}

@@ -1,0 +1,43 @@
+#SceneVideoPlayerFull {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 960px;
+	height: 540px;
+	background: url('../../images/background_texture.png') repeat;
+	background-color: #1f1f20;
+	color: #ffffff;
+}
+
+#VideoPlayerTitle {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#lstVideoPlayer {
+	position: absolute;
+	left: 40px;
+	top: 100px;
+	width: 400px;
+	height: 375px;
+}
+
+#VideoPlayerEventTitle {
+	position: absolute;
+	left: 525px;
+	top: 100px;
+	width: 375px;
+	height: 22px;
+}
+
+#VideoPlayerEvent {
+	position: absolute;
+	left: 525px;
+	top: 130px;
+	width: 375px;
+	height: 350px;
+	border: 1px solid #0000ff;
+	overflow: hidden;
+	font-size: 12px;
+}
