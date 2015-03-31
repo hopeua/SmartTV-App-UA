@@ -5,21 +5,22 @@
 	<ListIcon itemtype="string">icon/85x70.png</ListIcon>
 	<BigListIcon itemtype="string">icon/95x78.png</BigListIcon>
 	<ThumbIconHD itemtype="string">icon/158x130.png</ThumbIconHD>
-	<BigThumbIconHD itemtype="string">icon/173x143.png</BigThumbIconHD>
+	<BigThumbIconHD itemtype="string">icon/173x143.png
+	</BigThumbIconHD>
 	<ListIconHD itemtype="string">icon/128x105.png</ListIconHD>
 	<BigListIconHD itemtype="string">icon/143x118.png</BigListIconHD>
 	<Icon1080 itemtype="string">icon/128x105.png</Icon1080>
-	
+
 	<category>Videos</category>
 	<autoUpdate>y</autoUpdate>
 
 	<cpname></cpname>
-	<cpauthjs/>
+	<cpauthjs />
 	<login>n</login>
 
-	<ver>1.005</ver>
+	<ver>1.012</ver>
 	<mgrver>2.000</mgrver>
-	
+
 	<fullwidget>y</fullwidget>
 	<srcctl>y</srcctl>
 	<ticker>n</ticker>
@@ -28,12 +29,14 @@
 	<videomute>y</videomute>
 	<dcont>y</dcont>
 	<movie>y</movie>
-	
+
 	<width>960</width>
 	<height>540</height>
 
 	<widgetname>ТК Надія</widgetname>
-	<description>Телеканал «Надія» — це телебачення про найцікавіше для тих, хто любить проводити свій час з користю.</description>
+	<description>Телеканал «Надія» — це телебачення про найцікавіше для
+		тих, хто любить проводити свій час з користю.
+	</description>
 
 	<author>
 		<name>Hope Channel Ukraine</name>
