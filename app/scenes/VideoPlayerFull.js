@@ -1,7 +1,7 @@
 var playParams = {
 	url : 'http://91.90.23.69:1935/live/livestream_1/playlist.m3u8|COMPONENT=HLS',
 	fullScreen : true,
-	title : 'ТК Надія',
+	title : 'ТК «Надія»',
 	liveStream : true,
 };
 
@@ -25,8 +25,6 @@ SceneVideoPlayerFull.prototype.handleShow = function() {
 		err[sf.service.VideoPlayer.ERR_NOERROR] = 'NoError';
 		err[sf.service.VideoPlayer.ERR_NETWORK] = 'Network';
 		err[sf.service.VideoPlayer.ERR_NOT_SUPPORTED] = 'Not Supported';
-		// _THIS_.printEvent('ERROR : ' + (err[error] || error)
-		// + (info ? ' (' + info + ')' : ''));
 	};
 
 	opt.onend = function() {
@@ -39,9 +37,6 @@ SceneVideoPlayerFull.prototype.handleShow = function() {
 		stat[sf.service.VideoPlayer.STATE_PAUSED] = 'Paused';
 		stat[sf.service.VideoPlayer.STATE_BUFFERING] = 'Buffering';
 		stat[sf.service.VideoPlayer.STATE_SCANNING] = 'Scanning';
-
-		// _THIS_.printEvent('StateChange : ' + (stat[state] || state)
-		// + (info ? ' (' + info + ')' : ''));
 	};
 
 	sf.service.VideoPlayer.init(opt);
@@ -54,7 +49,7 @@ SceneVideoPlayerFull.prototype.handleShow = function() {
 	});
 
 	sf.service.VideoPlayer.setKeyHandler(sf.key.EXIT, function() {
-		sf.core.exit(false);
+		sf.core.exit(true);
 	});
 
 	sf.service.VideoPlayer.setKeyHandler(sf.key.LEFT, function() {
@@ -146,8 +141,8 @@ function cyclicInternetConnectionCheck() {
 	if (!checkConnection()) {
 		if (!offlineMode) {
 			swal({
-				title : "Проблема з підключенням",
-				text : "Перевірте своє під'єднання до Інтернету",
+				title : "Проблема с подключением",
+				text : "Проверьте своё интернет-соединение",
 				type : "error",
 				showConfirmButton : false,
 				showCancelButton : false

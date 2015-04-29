@@ -14,7 +14,7 @@
 	<category>Videos</category>
 	<autoUpdate>y</autoUpdate>
 
-	<cpname></cpname>
+	<cpname>ТК «Надія»</cpname>
 	<cpauthjs />
 	<login>n</login>
 
@@ -33,15 +33,14 @@
 	<width>960</width>
 	<height>540</height>
 
-	<widgetname>ТК Надія</widgetname>
+	<widgetname>ТК «Надія»</widgetname>
 	<description>Телеканал «Надія» — це телебачення про найцікавіше для
-		тих, хто любить проводити свій час з користю.
-	</description>
+		тих, хто любить проводити свій час з користю.</description>
 
 	<author>
-		<name>Hope Channel Ukraine</name>
-		<email>contact@hope.ua</email>
+		<name>Telekanal Nadiya, TOV</name>
+		<email>dev.hope.ua@gmail.com</email>
 		<link>http://www.hope.ua/</link>
-		<organization>Hope Channel Ukraine</organization>
+		<organization>Telekanal Nadiya, TOV</organization>
 	</author>
 </widget>
